@@ -1,106 +1,36 @@
-# 🕹️ **Jogo da Forca** 🦸‍♂️🦸‍♀️
+# 🕹️ **Hangman Game** 🦸‍♂️🦸‍♀️
 
-Um jogo interativo de **Forca** baseado em personagens da Marvel e DC. Teste seus conhecimentos sobre os personagens icônicos de quadrinhos em um desafio divertido e envolvente!
-
----
-
-## 🚀 **Visão Geral do Projeto**
-
-O código implementa um jogo da forca simples, onde o usuário tenta adivinhar o nome de personagens da Marvel/DC com um número limitado de tentativas. A cada tentativa, o usuário deve tentar acertar letras no nome, com dicas sobre o tema para facilitar a experiência.
+An interactive **Hangman** game based on Marvel and DC characters. Test your knowledge of iconic comic book characters in a fun and engaging challenge!
 
 ---
 
-## 🛠️ **Recursos Principais**
+## 🚀 **Project Overview**
 
-### Funcionalidades:
-- **Personagens da Marvel/DC como Palavras**: Base de palavras armazenada no arquivo `Forca.txt`.
-- **Mecânica de Forca Tradicional**: Baseia-se na tentativa de acertar letras com um número limitado de tentativas.
-- **Dica Incluída no Jogo**: O jogo fornece uma dica para ajudar o jogador.
-- **Interface Limpa no Console**: A tela é limpa em cada etapa para uma melhor experiência visual.
-- **Rejogar após cada tentativa**: Permite ao usuário continuar jogando com outras palavras.
+This code implements a simple hangman game where the user tries to guess the names of Marvel/DC characters with a limited number of attempts. In each round, the user must try to guess letters in the name, with hints about the theme to enhance the experience.
 
 ---
 
-## ⚙️ **Configuração**
+## 🛠️ **Key Features**
 
-### Pré-requisitos
-- Python 3.x instalado no seu sistema.
-- Arquivo de palavras `Forca.txt` contendo os nomes dos personagens da Marvel/DC para serem usados no jogo.
+### Functionalities:
+- **Marvel/DC Characters as Words**: Word bank stored in the `Forca.txt` file.
+- **Traditional Hangman Mechanics**: Based on guessing letters with a limited number of attempts.
+- **Hint Included in the Game**: The game provides a hint to assist the player.
+- **Clean Console Interface**: The screen is cleared at each step for a better visual experience.
+- **Replay After Each Round**: Allows the user to keep playing with different words.
 
 ---
 
-## ▶️ **Como Executar**
+## ⚙️ **Setup**
 
-1. Clone este repositório no seu ambiente local:
+### Prerequisites
+- Python 3.x installed on your system.
+- `Forca.txt` file containing the names of Marvel/DC characters to be used in the game.
+
+---
+
+## ▶️ **How to Run**
+
+1. Clone this repository to your local environment:
 ```bash
-git clone https://github.com/seu-usuario/jogo-da-forca.git
-```
-
-2. Certifique-se de que o arquivo `Forca.txt` está no mesmo diretório que o código.  
-   O arquivo deve conter uma lista de palavras, uma palavra por linha, representando os nomes dos personagens.
-
-3. Execute o código no terminal com:
-```bash
-python seu_arquivo.py
-```
-
----
-
-## 🎮 **Como Jogar**
-
-Após iniciar o programa, você verá o seguinte fluxo:
-
-1. **Menu inicial com palavras aleatórias**:  
-   O jogo seleciona automaticamente uma palavra da base de dados `Forca.txt`.
-
-2. **Dica apresentada no console**:
-   O jogo exibe a mensagem:  
-   ```
-   Dica: Personagem da Marvel e DC
-   ```
-
-3. **Interface da Forca com espaço para adivinhação de letras**:
-   O jogador verá algo como `_ _ _ _` para letras não descobertas e espaços preenchidos com letras corretamente adivinhadas.
-
-4. **Tentativas são contabilizadas**:  
-   Cada letra errada diminui o número de tentativas restantes.
-
----
-
-## 💬 **Exemplo do Fluxo**
-
-Ao iniciar, o jogo se parecerá com o seguinte exemplo no console:
-
-```
-* Forca *
-Dica: Personagem da Marvel e DC
-Erros:  
-Tentativas restantes: 6
-
-_ _ _ _ 
-
-Digite uma letra: 
-```
-
-Caso você adivinhe corretamente:
-
-```
-Você conseguiu!
-* Forca *
-H U L K
-Fim de Jogo!
-```
-
-Caso contrário, uma mensagem informando o erro será exibida, e o jogo continuará até que o usuário perca ou ganhe.
-
----
-
-## 🧮 **Tecnologias Utilizadas**
-
-- **Python 3.x**
-- Manipulação de arquivos com `open()`.
-- Utilização de funções `os.system('cls')` para manter o console limpo durante a experiência.
-
----
-
-Agora é sua vez de testar seus conhecimentos sobre os personagens da Marvel/DC! Boa sorte! 🦸‍♂️🦸‍♀️✨
+git clone https://github.com/jp9141joao/hangman-game.git
